@@ -15,6 +15,7 @@ To be able to run the full project and train the different models the following 
 - imgaug - 0.4.0
 - scikit-image - 0.19.0
 - scikit-learn - 1.0.1  
+- Pandas - 1.3.5
 
 ## Structure of the Repository
 
