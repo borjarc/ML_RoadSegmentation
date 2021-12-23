@@ -55,7 +55,7 @@ With the optimal model, one of the Unet versions the following results are obtai
 
 |           | Validation F1-score | Validation accuracy   | Test F1-score | Test Accuracy |
 |:---------:|:-------------------:|:---------------------:|:-------------:|:-------------:|
-| Unet-Beta |        0.999        |         0.999         |     0.999     |     0.999     |
+| Unet-Beta |        -----        |         0.963         |     0.903     |     0.947     |
 
 The prediction on an image is :
 
