@@ -23,7 +23,9 @@ To be able to run the full project and train the different models the following 
 .  
 ├── data                    # Dataset for training/ testing the model  
 ├── report                  # Report of the project  
-├── src                     # Source files  
+├── src                     # Source files
+│    └── helpers            # Helpers for the implementation of the code  
+│    └── models             # Savestate of the best models  
 └── README.md  
 </pre>
 
@@ -44,11 +46,11 @@ To run the model or to train it, the data has to be structured in a specific way
 
 
 ## Run the code 
-In order to run the best model that was implemented the following command has to be sent in a terminal with the data organised as mentioned above:
+In order to run the best model that was implemented the following command has to be sent in a terminal: i
 ```
 python run.py
 ```
-
+This has to be done in the 'src' folder with the data organised as mentioned above.
 
 ## Results
 With the optimal model, one of the Unet versions the following results are obtained:
