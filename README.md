@@ -9,6 +9,7 @@ For the EPFL course Machine Learning CS-433 a research project on semantic segme
 To be able to run the full project and train the different models the following packages need to be installed in the environement :
 
 - Pytorch - 1.10 or above
+- numpy - 1.21.5
 - imgaug - 0.4.0
 - scikit-image - 0.19.0
 - scikit-learn - 1.0.1  
@@ -40,22 +41,23 @@ To run the model or to train it, the data has to be structured in a specific way
 
 
 ## Run the code 
-In order to run the best model that was implemented the following command has to be sent in a terminal:
+In order to run the best model that was implemented the following command has to be sent in a terminal with the data organised as mentioned above:
 ```
 python run.py
 ```
 
 
 ## Results
-With the optimal model, a Unet with an encoder and a decoder
+With the optimal model, one of the Unet versions the following results are obtained:
 
 
 |           | Validation F1-score | Validation accuracy   | Test F1-score | Test Accuracy |
 |:---------:|:-------------------:|:---------------------:|:-------------:|:-------------:|
 | Unet-Beta |        0.999        |         0.999         |     0.999     |     0.999     |
 
+The prediction on an image is :
 
-
+![Alt text](/results.png?raw=true "Dataset image / Corresponding Groundtruth")
 ## Authors
 
 - Shadi Naguib [@shadinaguib](https://github.com/shadinaguib)
